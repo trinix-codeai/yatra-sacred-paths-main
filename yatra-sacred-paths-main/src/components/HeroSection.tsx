@@ -58,7 +58,7 @@ const HeroSection = () => {
                 className="bg-transparent w-full text-foreground placeholder:text-muted-foreground font-body outline-none"
               />
             </div>
-            <Button variant="hero" size="lg" className="rounded-xl gap-2">
+            <Button variant="secondary" size="lg" className="rounded-xl gap-2">
               <Search className="w-5 h-5" />
               Search
             </Button>
