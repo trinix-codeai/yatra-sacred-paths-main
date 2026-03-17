@@ -11,6 +11,7 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         outline: "border border-input bg-background hover:bg-secondary/60",
         ghost: "hover:bg-secondary/70",
+        hero: "bg-gradient-to-r from-primary to-secondary text-white hover:opacity-90",
       },
       size: {
         sm: "h-9 px-4",
