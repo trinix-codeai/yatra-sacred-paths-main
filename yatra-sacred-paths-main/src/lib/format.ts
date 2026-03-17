@@ -1,0 +1,11 @@
+export function formatCurrency(value: number, currency: string = "INR") {
+  return new Intl.NumberFormat("en-IN", {
+    style: "currency",
+    currency,
+    maximumFractionDigits: 0,
+  }).format(value);
+}
+
+export function formatRating(rating: number) {
+  return rating.toFixed(1);
+}
